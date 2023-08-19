@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.navigation{
+    height: 74px;
+    background-color: red;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navigation ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 1em;
+}
+.left{
+    display: flex;
+    gap: 2em;
+}
+.content{
+    height: 90px;
+    background-color: blue;
+}
+.footer{
+    height: 50px;
+    background-color: green;
+}

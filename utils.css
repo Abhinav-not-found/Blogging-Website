@@ -4,9 +4,20 @@
 .max-width-1{
     max-width: 80vw;
 }
-.max-width-2{
-    max-width: 60vw;
-}
 .m-auto{
     margin: auto;
+}
+.input{
+    padding: 3px 5px;
+    font-size: 16px;
+    border: 2px solid black;
+    border-radius: 4px;
+}
+.btn{
+    padding: 4px;
+    /* margin-left: -4px; */
+    cursor: pointer;
+}
+.list{
+    list-style: none;
 }

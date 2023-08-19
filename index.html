@@ -11,24 +11,62 @@
 <body>
     <nav class="navigation max-width-1 m-auto">
         <div class="left">
-            <span><strong>iBLOG</strong></span>
+            <span><strong><a class="a" href="/">iBLOG</a></strong></span>
             <ul>
-                <li>Home</li>
-                <li>Contacts</li>
+                <li><a class="a" href="/">Home</a></li>
+                <li><a class="a" href="./all_post.html">All Posts</a></li>
+                <li><a class="a" href="./contact.html">Contacts</a></li>
                 <li>About Us</li>
             </ul>
         </div>
         <div class="right">
-            <input class="input" type="text" name="" id="" placeholder="Search">
-            <button class="btn">Search</button>
+            <form action="/search.html" name="query" method="get">
+                <input class="input" type="text" name="" id="" placeholder="Search">
+                <button class="btn">Search</button>
+            </form>
         </div>
     </nav>
+    <hr class="max-width-1 m-auto"/>
     <main class="content max-width-1 m-auto">
         <h1>The heaven for bloggers</h1>
         <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quas illum eos quae excepturi. Quos, quia.</p>
-        <hr class="max-width-1 m-auto">
+        <!-- <hr class="max-width-1 m-auto"> -->
     </main>
-    <section class="featured_post max-width-1 m-auto"></section>
+    <section class="featured_post max-width-1 m-auto">
+        <h3>Featured Post</h3>
+        <a href="./Post/Post1.html">
+            <div class="fpc">
+                <img class="img" src="./5070388.jpg" alt="">
+                <div>
+                    <p><strong>Post1</strong></p>
+                    <p>Author-name | Date</p>
+                    <p>Description</p>
+                </div>
+            </div>
+        </a>
+        <a href="./Post/Post2.html">
+            <div class="fpc">
+                <img class="img" src="./5070388.jpg" alt="">
+                <div>
+                    <p><strong>Post2</strong></p>
+                    <p>Author-name | Date</p>
+                    <p>Description</p>
+                </div>
+            </div>
+        </a>
+        <a href="./Post/Post1.html">
+            <div class="fpc">
+                <img class="img" src="./5070388.jpg" alt="">
+                <div>
+                    <p><strong>Post3</strong></p>
+                    <p>Author-name | Date</p>
+                    <p>Description</p>
+                </div>
+            </div>
+        </a>
+        
+
+    </section>
 
 
 

@@ -17,6 +17,7 @@
     cursor: pointer;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
+
 .left{
     display: flex;
     gap: 2em;
@@ -24,6 +25,7 @@
 .left span{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     cursor: pointer;
+    text-decoration: none;
 }
 .content{
     height: 90px;
@@ -33,8 +35,16 @@
     margin-top: 5%;
 }
 .featured_post{
-    height: 500px;
-    background-color: red;
+    height: 500px auto;
+    padding: 1em;
+    /* background-color: red; */
+    display: flex;
+    gap: 1em;
+    flex-direction: column;
+}
+.featured_post a{
+    text-decoration: none;
+    color: black;
 }
 /*!----- footer----- */
 .footer{
